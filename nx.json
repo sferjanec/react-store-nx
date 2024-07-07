@@ -48,6 +48,12 @@
       "options": {
         "targetName": "test"
       }
+    },
+    {
+      "plugin": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
     }
   ],
   "generators": {
@@ -67,5 +73,6 @@
       }
     }
   },
-  "nxCloudAccessToken": "OWRhMjQ1YjMtNjQwNi00MTM3LTlmZjktZTE0YmE5MDY4NWFjfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "YmJhNzczMDAtMjc3MS00NDU2LTllODYtMDZiZmRiYTA5NTc4fHJlYWQtd3JpdGU=",
+  "defaultBase": "main"
 }
